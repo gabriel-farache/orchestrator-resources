@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: nmalvankar
+  description: nmalvankar developers
+spec:
+  type: team
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: nmalvankar
+spec:
+  profile:
+    displayName: Nikhil Malvankar
+  memberOf: [development]
