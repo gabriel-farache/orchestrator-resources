@@ -6,3 +6,12 @@ spec:
   profile:
     displayName: Gabriel Farache
   memberOf: [development]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ElaiShalevRH
+spec:
+  profile:
+    displayName: Elai Shalev
+  memberOf: [development]
