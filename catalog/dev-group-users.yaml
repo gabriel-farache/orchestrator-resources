@@ -24,3 +24,12 @@ spec:
   profile:
     displayName: Bat-Zion Rotman
   memberOf: [development]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: mareklibra
+spec:
+  profile:
+    displayName: Marek Libra
+  memberOf: [development]
