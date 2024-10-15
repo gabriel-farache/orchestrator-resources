@@ -33,3 +33,12 @@ spec:
   profile:
     displayName: Marek Libra
   memberOf: [development]
+  ---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: jordigilh
+spec:
+  profile:
+    displayName: Jordi Gil
+  memberOf: [development]
